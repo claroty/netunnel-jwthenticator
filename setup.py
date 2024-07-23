@@ -12,14 +12,14 @@ def read(path):
 
 
 install_requires = [
-    'netunnel>=1.0.2',
-    'jwthenticator>=1.0.0',
+    'netunnel>=1.0.12',
+    'jwthenticator>=1.5.0',
     'YURL>=1.0.0'
 ]
 
 setup(
     name="netunnel-jwthenticator",
-    version='1.0.1',
+    version='1.0.2',
     description='JWThenticator plugin for NETunnel',
     long_description="\n\n".join((read("README.md"), read("CHANGES.md"))),
     long_description_content_type='text/markdown',
