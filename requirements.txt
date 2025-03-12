@@ -1,3 +1,4 @@
 YURL==1.0.0
 netunnel==1.0.13
 jwthenticator==1.6.3
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
